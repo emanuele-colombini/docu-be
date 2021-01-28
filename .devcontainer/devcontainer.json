@@ -1,0 +1,14 @@
+{
+	"name": "docu-be-devcontainer",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+	
+	"forwardPorts": [8080],
+
+	"extensions": []
+}
