@@ -5,7 +5,8 @@
 	},
 
 	"settings": { 
-		"terminal.integrated.shell.linux": "/bin/bash"
+		"terminal.integrated.shell.linux": "/bin/bash",
+		"java.home": "/root/.sdkman/candidates/java/current"
 	},
 	
 	"forwardPorts": [8080],
