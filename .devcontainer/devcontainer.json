@@ -17,7 +17,6 @@
 		"vscjava.vscode-java-pack",
 		"redhat.vscode-xml",
 		"redhat.vscode-quarkus",
-		"redhat.vscode-microprofile",
 		"sohibe.java-generate-setters-getters",
 		"gabrielbb.vscode-lombok"
 	]
