@@ -10,5 +10,9 @@
 	
 	"forwardPorts": [8080],
 
-	"extensions": []
+	"extensions": [
+		"vscode-icons-team.vscode-icons",
+		"vscjava.vscode-java-pack",
+		"redhat.vscode-xml"
+	]
 }
