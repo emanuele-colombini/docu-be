@@ -6,7 +6,8 @@
 
 	"settings": { 
 		"terminal.integrated.shell.linux": "/bin/bash",
-		"java.home": "/root/.sdkman/candidates/java/current"
+		"java.home": "/root/.sdkman/candidates/java/current",
+		"java.saveActions.organizeImports": true
 	},
 	
 	"forwardPorts": [8080],
@@ -14,6 +15,8 @@
 	"extensions": [
 		"vscode-icons-team.vscode-icons",
 		"vscjava.vscode-java-pack",
-		"redhat.vscode-xml"
+		"redhat.vscode-xml",
+		"redhat.vscode-quarkus",
+		"redhat.vscode-microprofile"
 	]
 }
