@@ -1,4 +1,6 @@
-# getting-started project
+# Docu-be
+
+## getting-started project
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
