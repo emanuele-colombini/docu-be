@@ -1,4 +1,4 @@
-# Satispay Signature Implementation
+# Satispay Signature Implementation - TEST
 This folder contains the resolution of the interview task that requires to implement a Satispay HTTP Signature authentication.
 
 It's composed by 3 subfolders:
