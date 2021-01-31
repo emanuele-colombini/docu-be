@@ -3,6 +3,6 @@ COPY pom.xml /app/
 COPY src /app/src
 RUN mvn -f /app/pom.xml clean package
 
-FROM openjdk:11-jdk-alpine
+FROM openjdk:11.0-jre-slim-buster
 COPY --from=build /app/target/app.jar /app/app.jar
 ENTRYPOINT ["java","-jar","/app/app.jar"]
