@@ -19,6 +19,7 @@
 		"sohibe.java-generate-setters-getters",
 		"gabrielbb.vscode-lombok",
 		"pivotal.vscode-spring-boot",
-		"vscjava.vscode-spring-boot-dashboard"
+		"vscjava.vscode-spring-boot-dashboard",
+		"dotjoshjohnson.xml"
 	]
 }
