@@ -10,12 +10,12 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-@Path("/markdown")
-public class MarkdownResource {
+@RestController
+@RequestMapping("api/markdown")
+public class MarkdownController {
 
-    @GET
-    @Produces(MediaType.APPLICATION_JSON) 
-    public MarkdownFile get() throws Throwable {
+	@GetMapping()
+    public MarkdownFile getMarkdownFile() throws Throwable {
         String content = null;
         try (InputStream inputStream = getClass().getResourceAsStream("/test.md");
             BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream))) {

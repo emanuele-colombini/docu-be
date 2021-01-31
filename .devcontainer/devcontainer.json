@@ -7,7 +7,8 @@
 	"settings": { 
 		"terminal.integrated.shell.linux": "/bin/bash",
 		"java.home": "/root/.sdkman/candidates/java/current",
-		"java.saveActions.organizeImports": true
+		"java.saveActions.organizeImports": true,
+		"files.autoSave": "afterDelay"
 	},
 	
 	"forwardPorts": [8080],
@@ -15,9 +16,9 @@
 	"extensions": [
 		"vscode-icons-team.vscode-icons",
 		"vscjava.vscode-java-pack",
-		"redhat.vscode-xml",
-		"redhat.vscode-quarkus",
 		"sohibe.java-generate-setters-getters",
-		"gabrielbb.vscode-lombok"
+		"gabrielbb.vscode-lombok",
+		"pivotal.vscode-spring-boot",
+		"vscjava.vscode-spring-boot-dashboard"
 	]
 }
