@@ -8,7 +8,7 @@
             "type": "java",
             "name": "run be",
             "request": "launch",
-            "mainClass": "it.ecolombini.docube.DocuBeMain",
+            "mainClass": "it.ecolombini.docube.DocuBeApplication",
             "projectName": "docu-be"
         }
     ]
