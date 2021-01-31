@@ -1,3 +1,0 @@
-docker login
-docker build -t ecolombini/docu-be . 
-docker push ecolombini/docu-be:latest
