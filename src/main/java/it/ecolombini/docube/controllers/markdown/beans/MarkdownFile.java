@@ -1,4 +1,4 @@
-package it.ecolombini.docube;
+package it.ecolombini.docube.controllers.markdown.beans;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
